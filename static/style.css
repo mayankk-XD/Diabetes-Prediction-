@@ -1,0 +1,85 @@
+/* Body and background */
+body {
+    background: linear-gradient(to right, #6b6b80, #45455a); 
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-attachment: fixed;
+}
+
+/* Main container */
+.container {
+    max-width: 600px;
+    width: 100%;
+    background: rgba(15, 15, 30, 0.95); 
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+    color: #fff;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+/* Form inputs */
+input.form-control {
+    margin-bottom: 15px;
+    border-radius: 8px;
+    padding: 10px 12px;
+    border: none;
+    font-size: 1rem;
+    background: #fff; 
+    color: #000; 
+    outline: none;
+}
+
+input.form-control::placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+/* Button styling */
+button.btn-primary {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: #4a90e2;
+    transition: all 0.3s ease;
+}
+
+button.btn-primary:hover {
+    background-color: #357ab8;
+}
+
+/* Prediction box */
+.result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Color coding predictions */
+.result-diabetic {
+    background-color: rgba(255, 0, 0, 0.8);
+    color: #fff;
+}
+
+.result-not-diabetic {
+    background-color: rgba(0, 200, 0, 0.8);
+    color: #fff;
+}
+
+
